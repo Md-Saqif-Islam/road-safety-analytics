@@ -1,0 +1,13 @@
+#raw data: do not upload large source files. Link to the source instead.
+data/raw/*
+!data/raw/.gitkeep
+
+#Power BI can produce large temp files
+*.pbix.tmp
+
+#Mac system files
+.DS_Store
+
+#Do not commit database dumps or credentials
+*.dump
+*.env
